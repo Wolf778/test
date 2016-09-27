@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:wsa="http://www.w3.org/2005/08/addressing"
+               xmlns:mime="http://www.w3.org/2004/11/xmlmime"
+               xmlns:m="http://r-style.com/2014/routing"
+               xmlns:peer1="urn:peer1.com">
+
+    <soap:Header>
+        <wsa:MessageID>68b5428a36dd11e68853005056ad4529</wsa:MessageID>
+        <wsa:From>
+            <wsa:Address>urn:region:203000:BPI</wsa:Address>
+            <wsa:ReferenceParameters>
+
+                <m:RequestId>68b5479e36dd11e68853005056ad4529</m:RequestId>
+                <m:CorrelationId>68b54a7836dd11e68853005056ad4529</m:CorrelationId>
+                <m:ChannelType>ELECTRONIC</m:ChannelType>
+                <m:DocumentKind>INBOUND</m:DocumentKind>
+                <m:DocumentType>PACKAGE</m:DocumentType>
+                <m:ReceiveDate>2016-06-20T14:52:05+03:00</m:ReceiveDate>
+                <m:DocumentNumber>68b54c6236dd11e68853005056ad4529</m:DocumentNumber>
+
+                <m:Submitter>
+                    <m:Identifier>700-002-000747</m:Identifier>
+                    <m:Role>PAYER</m:Role>
+                </m:Submitter>
+                <m:Recipient>
+                    <m:Identifier>700-002</m:Identifier>
+                    <m:Role>OPFR</m:Role>
+                </m:Recipient>
+
+                <m:PeerBlock>
+                    <m:Identifier>BPI</m:Identifier>
+                    <m:PeerData/>
+                </m:PeerBlock>
+
+            </wsa:ReferenceParameters>
+        </wsa:From>
+
+        <wsa:RelatesTo>1e6ddba685f411e489d960a44cb21abd</wsa:RelatesTo>
+        <wsa:Action>urn:process:4:1.0</wsa:Action>
+    </soap:Header>
+
+    <soap:Body>
+        <m:Message>
+            <m:data mime:contentType="application/zip">UEsDBAoAAAAAAIN21EimJDeUCgEAAAoBAABEABwAUEZSLTcwMC1ZLTIwMTAtT1JHLTIxMi0zMjMtMjM0MzQzLURDSy0wMDAwMi1EUFQtMDAwMDAwLURDSy0wMDAwMC5zaWdVVAkAA+XYZ1fl2GdXdXgLAAEE+AEAAAT4AQAA0zHk0g100H00QqRhV/e0010d10274028943971000745101915910Hinfostektrustru10URU10U110/U7410U1210U10UStekTrustCAQ630140109091412Z150109235900Z01I0GU2250488048828G10Uz58B80LK930D5450L9AC61K3AC409AB0B8AB8810URU10U33041907U0343304A0O10ABL10H010UC24AB210U5F808AB1000344411991010340100567110340110d105344409027010d1430781915010U40013110ABL3304A0O3304C8F0840A3110U225QSwMEFAAAAAgAZIrRSK3j1QdIBAAAxA0AAEQAHABQRlItNzAwLVktMjAxMC1PUkctMjEyLTMyMy0yMzQzNDMtRENLLTAwMDAyLURQVC0wMDAwMDAtRENLLTAwMDAwLlhNTFVUCQAD3AZkV1vTZ1d1eAsAAQT4AQAABPgBAADtV91v21QUf0fif7D87vgjLdmQ4z0wwQMgpokHeIrQVlgllk7tYPx5lpsQk9Z2nKYURKXcOfF6E8c3tksXoSLC8Wfs1lnHNPGAaFXV95zfOffcc373HFu888Pjb6nvt3b3tneadZqvcDS11Xyw83C7+U2dfrbdfLjzbI/hhU2eviO9+444QBPHGPQoCsyae3X60dOnT95n2b0Hj7Yef1V58vVuZfc7GoAUJaqzZYhG0r0P7zM1jmO+ZASO55jP7n/ECLzAVIUqI1Q34Je5+8HHDAc/AnP33ufRE8BTIVf54tNPRDZzFznvoBFxiEWmKxlIFdvz8XJAvBkKkMTVKhwnskVhguzjeWypaO1fNPUnkc0kCcLwyMhDsxkyyHhEAmJNcQu57uVFAgCIhs4s5GI7hV5KXV3rH/UYvX/S7lPGQGSvQzLrOC4JUp7GmG7N3rS3qPoBWbh4mkjNfk8+1hW53z44hUwVlVG+2JKEiQZaTJFyQcbLP/BFi0zPZ7YLm1H61Dt/YUPUdVqhfOIHyLKp30M7mjIDNMbLOt0iFHnuoeckmGI6y/+x3hr+Kg8buqGapw1DbySR/XbYUDqabsqHueyRme0pc4jBlnjIVG6ZYaAocXz2RJ9jH0uRY8qQT7pqVLKiNrMzo6BxYDt/hodcaaKqOWRErMtJtGNOE+ZV06RaTdiobdZqPAQVrguArmFInHDrFhCZA324zLlm1/qGXTFkl0Rk0L0R/DtDLzGWNCjbkNJ7+7KmduSf1WHopBy6xlvXQ8GU2Dd5SmE5Lz17hP3AA+cEmJLEXLyaIlsKyhLNrs10XN9r2dd9iMclE0kQ2ex55a7EKCnmip95d13i4IXtBxYJOZRbFQuOF9gudRBzLFUhyVTarbamAoMz6h4n1D1uqKlMP4Qn+cd2o3MQsXBlXyTLawTHro8uTW6ZqgW9LNY6cFGXkgC9rlqB/rohsld1+dtkWvYYhBNJNeGuavIwij+TZtAuGXdRYI+IF3K0F0afE2QwPVjYAbDCsD1MxoXCWMgLkBMdPHnMafcBHA4Dkd0vmqX9UjIpDjojHx6JowydqnIV7r1KbJOBVplaE4honkMXVc5c4hNLQybw+IJY538Vt1xgHzIFReKigbES5FBHcwctQpkQYbJlrlg3bHUlFg1NyTy6N+6/EU/ZdjB3Xrthi//4ZpR3emFNp1fwOBzRl5JpKAyQJlu/CXvfQmN7Cx12/aS5Yc68asqsnTH/nSsb3xySnA8ywIR/t2/z1GYNaF1UZ2YDVc9HNUAz7EDzU2RTPThtKyKbSvJlmC2lg6OuHL1dFqZUkHRqs33YhrKrJ3G8he4NLnN7/t9qXr1dNLI6aE4ct3Ri5VQ5KqAXtlXG1aj4cHACLwrpy2OyzKFCv3Ak5KDYA3wTZAyNdy1qr5h2ifsy0/EbKzZfU+ZSURYyiN+oe8KXQPkrevgpxibfYtLfUEsBAh4DCgAAAAAAg3bUSKYkN5QKAQAACgEAAEQAGAAAAAAAAAAAALSBAAAAAFBGUi03MDAtWS0yMDEwLU9SRy0yMTItMzIzLTIzNDM0My1EQ0stMDAwMDItRFBULTAwMDAwMC1EQ0stMDAwMDAuc2lnVVQFAAPl2GdXdXgLAAEE+AEAAAT4AQAAUEsBAh4DFAAAAAgAZIrRSK3j1QdIBAAAxA0AAEQAGAAAAAAAAQAAALSBiAEAAFBGUi03MDAtWS0yMDEwLU9SRy0yMTItMzIzLTIzNDM0My1EQ0stMDAwMDItRFBULTAwMDAwMC1EQ0stMDAwMDAuWE1MVVQFAAPcBmRXdXgLAAEE+AEAAAT4AQAAUEsFBgAAAAACAAIAFAEAAE4GAAAAAA==</m:data>
+        </m:Message>
+    </soap:Body>
+
+</soap:Envelope>
